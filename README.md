@@ -14,3 +14,6 @@ bootstrap:
  https://getbootstrap.com/docs/5.3/getting-started/introduction/ -ljepse raspisano za text edit
 
  https://getbootstrap.com/docs/6.0/getting-started/install/
+
+za razmake
+ https://getbootstrap.com/docs/5.3/utilities/spacing/
