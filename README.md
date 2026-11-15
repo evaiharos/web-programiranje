@@ -25,3 +25,10 @@ za razmake
 
  provjeri jel nes ostalo:
  find . -name node_modules -type d
+
+zipanje mape:
+cd ..
+
+zip -r prezime_ime_kolokvij_1.zip template \
+  -x "*/node_modules/*" \
+  -x "*/.DS_Store"
