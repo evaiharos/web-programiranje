@@ -32,3 +32,27 @@ cd ..
 zip -r prezime_ime_kolokvij_1.zip template \
   -x "*/node_modules/*" \
   -x "*/.DS_Store"
+
+
+  -->ako ne postoji server mapa i moras ju stvorit(pise u v3):
+  1. u template dodaj mapu server
+  2. otvori ju u terminalu
+  3. npm init -y
+  4. npm install express nodemon
+  5. dodaj ovo: "nodemon": "nodemon index.js"
+  6. promijeni type u module
+  7. stvori file todos.js i u njega stavi neki predlozak sto imas+ export default todos
+  8. stvori file index.js->u njega stavljas stvari iz p3 i editas neke male stvari koje treba
+  9. u mapi server npm run nodemon
+
+->bootstrap icons: 
+odi gore na icons, pa documentation, u readme github pise:
+npm i bootstrap-icons, to kopiraj u terminalu u serveru
+i u scss dodaj ovo:
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+-->jquery:
+u template npm install jquery
+i onda u klijentu u js u script.js:
+import $ from "jquery";
