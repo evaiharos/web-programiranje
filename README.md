@@ -17,3 +17,11 @@ bootstrap:
 
 za razmake
  https://getbootstrap.com/docs/5.3/utilities/spacing/
+
+
+ brisanje node_modules:
+ u mapu template dodji u termilanu i napisi:
+ rm -rf node_modules server/node_modules
+
+ provjeri jel nes ostalo:
+ find . -name node_modules -type d
