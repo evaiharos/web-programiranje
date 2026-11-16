@@ -56,3 +56,6 @@ $bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
 u template npm install jquery
 i onda u klijentu u js u script.js:
 import $ from "jquery";
+
+link za margine i te udaljenosti:
+https://getbootstrap.com/docs/5.3/utilities/spacing/
