@@ -65,3 +65,5 @@ import { Modal } from "bootstrap";
 const myModal = new Modal(document.getElementById("editModal"));  //kopiras s bootstrapa
 
 -->promijeni boju pozadine: sccs: $body-bg: 
+
+https://bootstrap.build/guides/
