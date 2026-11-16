@@ -59,3 +59,7 @@ import $ from "jquery";
 
 link za margine i te udaljenosti:
 https://getbootstrap.com/docs/5.3/utilities/spacing/
+
+ako kaze instanciraj instancu klase:
+import { Modal } from "bootstrap";
+const myModal = new Modal(document.getElementById("editModal"));  //kopiras s bootstrapa
