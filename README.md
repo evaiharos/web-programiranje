@@ -47,7 +47,7 @@ zip -r prezime_ime_kolokvij_1.zip template \
 
 ->bootstrap icons: 
 odi gore na icons, pa documentation, u readme github pise:
-npm i bootstrap-icons, to kopiraj u terminalu u serveru
+npm i bootstrap-icons, to kopiraj u terminalu u template
 i u scss dodaj ovo:
 $bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
 @import "bootstrap-icons/font/bootstrap-icons";
